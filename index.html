@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Responsive Sayfalar</title>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script>
+    $(document).ready(function(){
+    $("#filtreBaslik").click(function(){
+    $("#kapat").toggle(400);
+    });
+    });
+	
+
+
+
+    </script>
+  
+
+</head>
+<body>
+
+
+	
+       <div class="header">
+
+       	<div class="logo"><a href="index.html"><img src="images/logo.png"></div></a>
+       	<div class="arama"><input type="search" class="txtAra" name="arama" placeholder="Aramak İstediğiniz Ürünü Yazınız"><button class="button"><img src="images/ara.png"></button></div>
+       	<div class="üyelik">Üye</div>
+
+       </div>
+
+       <div class="menuler">
+
+       	<ul class="menu">
+
+       		<li><a href="#">Kategori</a></li>
+       		<li><a href="#">Marka</a></li>
+       		<li><a href="#">Karakter</a></li>
+       		<li><a href="#">Kız</a></li>
+       		<li><a href="#">Erkek</a></li>
+       		<li><a href="#">Yaş</a></li>
+       		<img src="images/kampanya.png">
+
+       	</ul>
+
+       </div>
+
+       <div class="content">
+
+       	<div class="filtreler">
+
+       		<div class="filtreBaslik"  onclick="tikla()"><a href="#">FİLTRELER<img  id="filtreBaslik" src="images/eksi.png"></a></div>
+       		<div id="kapat" >
+       		<div class="oyuncak"><h1>Oyuncak</h1></div>
+       		<div class="oyuncakCesitleri">
+       			
+       			<ul class="lstCesitleri">
+       				<li><a href="#">Oyuncak Bebekler</a></li>
+       				<li><a href="#">Oyuncak Araçlar</a></li>
+       				<li><a href="#">Kumandalı Araçlar</a></li>
+       				<li><a href="#">Eğitici Oyun Setleri</a></li>
+       				<li><a href="#">Spor ve Bahçe</a></li>
+       				<li><a href="#">Figür Oyuncakları</a></li>
+       				<li><a href="#">Peluş Oyuncaklar</a></li>
+       				<li><a href="#">Oyun Hamuru</a></li>
+       			</ul>
+
+       		</div>
+          </div>
+       	</div>
+
+
+       	<div class="urunler">
+            
+       		<div class="urun"><a href="#">
+       			<div class="urunResim"><img src="images/urun1.jpg"></div>
+       			<div class="urunAdi">Sylvanian Families Cosy Cottage Home</div>
+       			<div class="urunFiyat">174,90 TL</div>
+       			<div class="kargo">Ücretsiz Kargo</div>
+       			<div class="sepeteEkle">Sepete Ekle</div>
+       		</div>
+       	    </a>
+            
+            
+       		<div class="urun"><a href="#">
+       			<div class="urunResim"><img src="images/urun2.jpg"></div>
+       			<div class="urunAdi">Lego Friends Olivias Vehicle 41333</div>
+       			<div class="urunFiyat">63,00 TL</div>
+       			<div class="kargo">Ücretsiz Kargo</div>
+       			<div class="sepeteEkle">Sepete Ekle</div>
+       		</div>
+       		</a>
+            
+            
+       		<div class="urun"><a href="#">
+       			<div class="urunResim"><img src="images/urun3.jpg"></div>
+       			<div class="urunAdi">Lego Friends Emmas Art Stand 41332</div>
+       			<div class="urunFiyat">63,00 TL</div>
+       			<div class="kargo">Ücretsiz Kargo</div>
+       			<div class="sepeteEkle">Sepete Ekle</div>
+       		</div>
+       		</a>
+            
+            
+       		<div class="urun"><a href="#">
+       			<div class="urunResim"><img src="images/urun4.jpg"></div>
+       			<div class="urunAdi">Lego Friends Stephanies Soccer 41330</div>
+       			<div class="urunFiyat">45,50 TL</div>
+       			<div class="kargo">Ücretsiz Kargo</div>
+       			<div class="sepeteEkle">Sepete Ekle</div>
+       		</div>
+       		</a>
+            
+            
+       		<div class="urun"><a href="#">
+       			<div class="urunResim"><img src="images/urun5.jpg"></div>
+       			<div class="urunAdi">Lego Friends Olivias Bedroom 41329</div>
+       			<div class="urunFiyat">45,50 TL</div>
+       			<div class="kargo">Ücretsiz Kargo</div>
+       			<div class="sepeteEkle">Sepete Ekle</div>
+       		</div>
+       		</a>
+            
+            
+       		<div class="urun"><a href="#">
+       			<div class="urunResim"><img src="images/urun6.jpg"></div>
+       			<div class="urunAdi">Lego Creator Sunshine Van 31079</div>
+       			<div class="urunFiyat">139,90 TL</div>
+       			<div class="kargo">Ücretsiz Kargo</div>
+       			<div class="sepeteEkle">Sepete Ekle</div>
+       		</div>
+       		</a>
+            
+            
+       		<div class="urun"><a href="#">
+       			<div class="urunResim"><img src="images/urun7.jpg"></div>
+       			<div class="urunAdi">Lego Creator Rocket Rally Car 31074</div>
+       			<div class="urunFiyat">89,90 TL</div>
+       			<div class="kargo">Ücretsiz Kargo</div>
+       			<div class="sepeteEkle">Sepete Ekle</div>
+       		</div>
+       		</a>
+            
+            <a href="#">
+       		<div class="urun">
+       			<div class="urunResim"><img src="images/urun8.jpg"></div>
+       			<div class="urunAdi">Lego Duplo Airport 10871 And Rocket</div>
+       			<div class="urunFiyat">99,90 TL</div>
+       			<div class="kargo">Ücretsiz Kargo</div>
+       			<div class="sepeteEkle">Sepete Ekle</div>
+       		</div>
+       		</a>
+
+
+       	</div>
+
+       </div>
+  <script type="text/javascript">
+    	
+    	
+    	if (document.getElementById('kapat').style.display="block")
+    	{
+    		document.getElementById('filtreBaslik').src="images/eksi.png"
+
+    	}
+    	
+    	 function tikla(){
+    	
+    	 if (document.getElementById('kapat').style.display="none")
+    	{
+    		document.getElementById('filtreBaslik').src="images/arti.png"
+
+
+    	}
+    	 }
+    	
+   			
+    </script>
+
+
+</body>
+</html>
